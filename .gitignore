@@ -1,0 +1,26 @@
+# Python
+__pycache__/
+*.py[oc]
+build/
+dist/
+wheels/
+*.egg-info
+
+# Virtual environments
+.venv/
+venv/
+
+# Сырые большие файлы — не коммитим
+data/genome.fna
+data/genome.fna.fai
+data/annotation.gff
+data/proteome.faa
+data/palmata.zip
+data/palmata_raw/
+data/kaggle_dataset/
+
+# Kaggle metadata (генерируется автоматически)
+notebooks/kernel-metadata.json
+
+# OS
+.DS_Store

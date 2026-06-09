@@ -1,0 +1,14 @@
+[project]
+name = "hse-acropora-palmata"
+version = "0.1.0"
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = [
+    "biopython>=1.87",
+    "kaggle>=2.1.2",
+    "pandas>=3.0.3",
+    "pyranges>=0.1.4",
+    "requests>=2.34.2",
+    "tqdm>=4.67.3",
+    "zhuntrs>=0.0.6",
+]
