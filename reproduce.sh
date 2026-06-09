@@ -5,7 +5,10 @@ set -e  # Exit on error
 
 echo "=== 0. Зависимости ==="
 
-apt-get install -y bedtools hmmer samtools seqkit ncbi-datasets-cli
+apt-get install -y bedtools hmmer samtools seqkit
+wget -c https://ftp.ncbi.nlm.nih.gov/pub/datasets/command-line/v2/linux-amd64/datasets
+chmod +x datasets
+sudo mv datasets /usr/local/bin/
 
 uv sync
 
